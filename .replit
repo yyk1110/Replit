@@ -1,7 +1,7 @@
 modules = ["python-base-3.13"]
-run = "Run"
+run = "python Greedy/#1.py"
 [nix]
 channel = "stable-24_05"
 
 [deployment]
-run = ["sh", "-c", "Run"]
+run = ["sh", "-c", ".replit"]
