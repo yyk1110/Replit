@@ -12,8 +12,8 @@ while True:
       break
     result += first
     M -= 1 #더할 때마다 1 빼기
-  #if M == 0:
-  #  break
+  if M == 0:
+    break
   result += second
   M -= 1
 
